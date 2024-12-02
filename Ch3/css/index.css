@@ -1,0 +1,12 @@
+
+.big{
+    text-align:  center;
+    font-size: 18;
+    color: red;
+    font-style: italic;
+}
+.normal{
+    font-size: 14;
+    color: blue;
+    font-style: normal;
+}
