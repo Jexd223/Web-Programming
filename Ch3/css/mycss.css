@@ -10,11 +10,11 @@
     color: blue;
     font-style: normal;
 }
-a {
+.link {
     color: blue;
     text-decoration: none; 
 }
-a:hover {
+.link:hover {
     color: red; /* เปลี่ยนสีเมื่อเมาส์แตะ */
 }
 .img{
