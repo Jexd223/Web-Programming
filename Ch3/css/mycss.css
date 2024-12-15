@@ -1,4 +1,8 @@
 
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
 .big{
     text-align:  center;
     font-size: 40px;
