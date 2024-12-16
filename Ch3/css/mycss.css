@@ -1,4 +1,8 @@
 
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
 .big{
     text-align:  center;
     font-size: 40px;
@@ -10,11 +14,11 @@
     color: blue;
     font-style: normal;
 }
-a {
+.link {
     color: blue;
     text-decoration: none; 
 }
-a:hover {
+.link:hover {
     color: red; /* เปลี่ยนสีเมื่อเมาส์แตะ */
 }
 .img{
