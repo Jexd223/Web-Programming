@@ -16,7 +16,7 @@
                 $text = file($filename);
 
                 echo "<table border='1' cellpadding='10'>";
-                echo "<tr><th>Firstname</th><th>Nickname</th></tr>";
+                echo "<tr><th>Number</th><th>Nickname</th></tr>";
 
                 foreach ($text as $tr_data) {
                     $col = 1;
@@ -30,41 +30,41 @@
                             $row_html .= "<td>" . htmlspecialchars($value) . "</td>";
                         } else {
                             if ($value == "Robert") 
-                                $row_html .= "<td>Dick</td>";
+                                $row_html .= "<td><center>Dick</center></td>";
                             elseif ($value == "Dick") 
-                                $row_html .= "<td>Robert</td>";
+                                $row_html .= "<td><center>Robert</center></td>";
                             elseif ($value == "Bill") 
-                                $row_html .= "<td>William</td>";
+                                $row_html .= "<td><center>William</center></td>";
                             elseif ($value == "William") 
-                                $row_html .= "<td>Bill</td>";
+                                $row_html .= "<td><center>Bill</center></td>";
                             elseif ($value == "James") 
-                                $row_html .= "<td>Jim</td>";
+                                $row_html .= "<td><center>Jim</center></td>";
                             elseif ($value == "Jim") 
-                                $row_html .= "<td>James</td>";
+                                $row_html .= "<td><center>James</center></td>";
                             elseif ($value == "Margaret") 
-                                $row_html .= "<td>Peggy</td>";
+                                $row_html .= "<td><center>Peggy</center></td>";
                             elseif ($value == "Peggy") 
-                                $row_html .= "<td>Margaret</td>";
+                                $row_html .= "<td><center>Margaret</center></td>";
                             elseif ($value == "Ed") 
-                                $row_html .= "<td>Edward</td>";
+                                $row_html .= "<td><center>Edward</center></td>";
                             elseif ($value == "Edward") 
-                                $row_html .= "<td>Ed</td>";
+                                $row_html .= "<td><center>Ed</center></td>";
                             elseif ($value == "Sarah") 
-                                $row_html .= "<td>Sally</td>";
+                                $row_html .= "<td><center>Sally</center></td>";
                             elseif ($value == "Sally") 
-                                $row_html .= "<td>Sarah</td>";
+                                $row_html .= "<td><center>Sarah</center></td>";
                             elseif ($value == "Andy") 
-                                $row_html .= "<td>Andrew</td>";
+                                $row_html .= "<td><center>Andrew</center></td>";
                             elseif ($value == "Andrew") 
-                                $row_html .= "<td>Andy</td>";
+                                $row_html .= "<td><center>Andy</center></td>";
                             elseif ($value == "Anthony") 
-                                $row_html .= "<td>Tony</td>";
+                                $row_html .= "<td><center>Tony</center></td>";
                             elseif ($value == "Tony") 
-                                $row_html .= "<td>Anthony</td>";
+                                $row_html .= "<td><center>Anthony</center></td>";
                             elseif ($value == "Deborah") 
-                                $row_html .= "<td>Debbie</td>";
+                                $row_html .= "<td><center>Debbie</center></td>";
                             elseif ($value == "Debbie") 
-                                $row_html .= "<td>Deborah</td>";
+                                $row_html .= "<td><center>Deborah</center></td>";
                         }
                         $col++;
                     }
