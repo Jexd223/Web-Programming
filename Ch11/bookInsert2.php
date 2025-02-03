@@ -1,12 +1,12 @@
 <?php
-    $bookId = $_POST['bookId'];
-    $bookName = $_POST['bookName'];
-    $typeId = $_POST['typeId'];
-    $statusId = $_POST['statusId'];
-    $publish = $_POST['publish'];
-    $unitPrice = $_POST['unitPrice'];
-    $unitRent = $_POST['unitRent'];
-    $dayAmount = $_POST['dayAmount'];
+    $bookId = $_POST['BookID'];
+    $bookName = $_POST['BookName'];
+    $typeId = $_POST['TypeID'];
+    $statusId = $_POST['StatusID'];
+    $publish = $_POST['Publish'];
+    $unitPrice = $_POST['UnitPrice'];
+    $unitRent = $_POST['UnitRent'];
+    $dayAmount = $_POST['DayAmount'];
     $oldImageFile = @$_POST['oldImageFile'];
     $imageFileName = @$_FILES['imageFile']['name'];
     $imageFileType = @$_FILES['imageFile']['type'];

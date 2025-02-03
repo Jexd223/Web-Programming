@@ -91,8 +91,10 @@
                         </td>
                     </tr>
             </table><br>
-            <input type="submit" name="submit" value="บันทึกข้อมูล" style="cursor:hand;">
-            <input type="reset" name="reset" value="ยกเลิก" style="cursor:hand;">
+
+            <input type="submit" name="submit" value="บันทึกข้อมูล" style="display:block; cursor:pointer;">
+
+            <input type="reset" name="reset" value="ยกเลิก" style="cursor:pointer;">
         </form><br><br>
         <a href="bookList1.php">กลับหน้า bookList1.php</a>;
     </center>
