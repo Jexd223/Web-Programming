@@ -65,7 +65,7 @@
                 </tr>
                 <tr>
                     <td width="200">รหัสหนังสือ : </td>
-                    <td width="400"><input type="text" name="bookId" size="10" maxlength="5"></td>
+                    <td width="400"><input type="text" name="bookId" size="50" maxlength="7"></td>
                 </tr>
                 <tr>
                     <td width="200">ชื่อหนังสือ : </td>
