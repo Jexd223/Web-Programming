@@ -103,10 +103,8 @@
                 </tr>
                 <tr>
                     <td width="200">รูปภาพ : </td>
-                    <td>
-                        <input type="file" name="imageFile" size="30">
+                    <td><input type="file" name="imageFile" size="30">
                         <br>
-                        <img src=$Path$data[Picture] valign=middle align = center>
                         <font size="2" color="#ff3300">นามสกุล .gif หรือ .jpg
                             (เท่านั้น)</font>
                     </td>
