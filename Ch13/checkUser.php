@@ -1,7 +1,7 @@
 <?php
     session_start();
-    $Username = $_POST['username'];
-    $Password = $_POST['password'];
+    $Username = $_POST['Username'];
+    $Password = $_POST['Password'];
     $hostname = "localhost";
     $username = "root";
     $password = "";
