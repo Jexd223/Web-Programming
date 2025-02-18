@@ -5,7 +5,7 @@
     $hostname = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "session";
+    $dbname = "bookstore";
     $conn = mysqli_connect( $hostname, $username, $password );
     if ( ! $conn ) die ( "ไม่สามารถติดต่อกับ MySQL ได้");
     mysqli_select_db ( $conn, $dbname )or die ( "ไม่สามารถเลือกฐานข้อมูล session ได้" );
@@ -15,7 +15,7 @@
     if ( $rs ) {
         if ($rs['password']  == $Password) {
             $_SESSION['Username']=$Username;
-            header("Location: welcome.php?Username=$Username");
+            header("Location: listBook.php?Username=$Username");
         }
         else {
             echo "<br>Password not match.";

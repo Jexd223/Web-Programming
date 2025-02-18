@@ -57,7 +57,7 @@
 
         echo '</table>';
         mysqli_close($conn);
-        echo '<br><br><a href="menu1.php">Back to menu</a>';
+        echo '<br><br><a href="logout.php">logout</a>';
         echo '</center>';
     ?>
 </body>

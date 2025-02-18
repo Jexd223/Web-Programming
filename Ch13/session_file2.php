@@ -5,7 +5,7 @@
     $_SESSION['username']=$username;
     $_SESSION['password']=$password;
 ?>
-ชื่อผู้ใช้ที่คุณป้อนมาให้คือ
+    ชื่อผู้ใช้ที่คุณป้อนมาให้คือ
 <?php
     echo $_SESSION['username'];
 ?>
