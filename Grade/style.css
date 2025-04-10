@@ -1,0 +1,106 @@
+/* กำหนดลักษณะทั่วไปของ body */
+body {
+    font-family: Arial, sans-serif; /* ฟอนต์หลัก */
+    background-color: #f0f8ff; /* สีพื้นหลัง */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ตกแต่งหัวข้อของหน้า */
+h3 {
+    color: #60b5d6;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* สไตล์สำหรับตาราง */
+table {
+    border-collapse: collapse; /* ลบช่องว่างระหว่างเส้นขอบ */
+    width: 80%; /* กำหนดความกว้างของตาราง */
+    margin: 20px auto; /* จัดให้อยู่ตรงกลาง */
+    background-color: #ffffff; /* สีพื้นหลังของตาราง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงาของตาราง */
+}
+
+/* เส้นขอบเซลล์ */
+table, th, td {
+    border: 1px solid #ddd; /* เส้นขอบบาง ๆ */
+}
+
+/* ส่วนหัวของตาราง */
+th {
+    background-color: #46d9ec; /* สีพื้นหลังหัวตาราง */
+    color: white; /* สีตัวอักษร */
+    padding: 10px; /* ระยะห่างด้านในเซลล์ */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    font-size: 16px;
+}
+
+/* เซลล์ในตาราง */
+td {
+    padding: 10px; /* ระยะห่างด้านใน */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    font-size: 14px;
+    color: #333; /* สีตัวอักษร */
+}
+
+/* สีแถวสลับ */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* สีพื้นหลังแถวที่เป็นเลขคู่ */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* สีพื้นหลังแถวที่เป็นเลขคี่ */
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อชี้เมาส์ */
+tr:hover {
+    background-color: #f1f1f1; /* เปลี่ยนสีพื้นหลัง */
+    cursor: pointer;
+}
+
+/* สไตล์สำหรับฟอร์ม */
+form {
+    margin: 20px auto;
+    width: 50%; /* ขนาดของฟอร์ม */
+    text-align: center; /* จัดข้อความในฟอร์มให้อยู่ซ้าย */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd; /* เส้นขอบของฟอร์ม */
+    border-radius: 8px; /* มุมโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงา */
+}
+
+form label {
+    display: block; /* ให้ label อยู่คนละบรรทัดกับ input */
+    margin-bottom: 3px  ; /* เพิ่มช่องว่างด้านล่างของ label */
+    font-weight: bold; /* เพิ่มความหนาให้กับตัวอักษร */
+    text-align: left;
+}
+
+/* สไตล์ปุ่ม */
+input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีตัวอักษร */
+    border: none; /* ไม่มีเส้นขอบ */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 5px; /* มุมปุ่มโค้ง */
+    cursor: pointer; /* เปลี่ยนรูปเมาส์ */
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049; /* เปลี่ยนสีเมื่อชี้เมาส์ */
+}
+
+/* ช่องกรอกข้อมูล */
+input[type="text"] {
+    width: 90%; /* ขนาดของช่องกรอกข้อมูล */
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* เส้นขอบ */
+    border-radius: 4px; /* มุมโค้ง */
+    box-sizing: border-box;
+}
